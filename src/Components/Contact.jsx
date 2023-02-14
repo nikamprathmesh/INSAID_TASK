@@ -69,7 +69,6 @@ export default function Contact() {
                             <button type="submit" >Submit</button>
                         </div>
                         </form>
-                        
                     </div>
                 </div>
             </div>

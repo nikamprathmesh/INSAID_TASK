@@ -196,25 +196,30 @@
   .subHome{ 
     display: flex;
     flex-direction:column;
-    height: fit-content  ;
+    /* height: fit-content  ; */
   }
   .home_left_section{
-    width: 100%;
+    width: 300px;
+    max-width: 400px;
     margin-left: 30px;
   }
   .home_para_name{
-    width: 100%;
+    max-width:400px;
   }
   .home_para_name p{
-    font-size: 30px;
+    width: 310px;
+    max-width: 400px;
+    font-size: 50px;
     font-weight: 700;
     letter-spacing: 10px;
     color:#FFFF00;
   }
   .home_right_section{
-    margin-left: 20px;
+    display: block;
+    margin-left: 0;
     margin-top: 70px;
-    width: 400px;
+    width: 350px;
+    max-width: 400px;
   }
   .home_right_section div p{
     height: fit-content;
@@ -229,12 +234,19 @@
     font-weight: 500;
     color:#65ffb2;
   }
+  .home_right_section div{
+    max-width: 350px;
+    margin-left: 50px;
+  }
   .services{
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
+    max-width: 400px;
     /* height: 100vh; */
     justify-content: center;
+    margin-left: 200px;
   }
   .services_heading{
     /* margin-left: 500px; */
