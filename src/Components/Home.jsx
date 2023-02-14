@@ -15,7 +15,7 @@ export default function Home() {
             </div>
             <div className="home_right_section">
               <div>
-                <p>We are the team of GrowWithTech...Your Partner...The one who think like you, undestands you and help you to provide easy and responsible solutions to your requirement. We believe in people, and therefore come up with our best</p>
+                <p>We are the team of GrowWithTech..Your Partner..The one who think like you, undestands you and help you to provide easy and responsible solutions to your requirement. We believe in people, and therefore come up with our best</p>
               </div>
             </div>
           </div>
